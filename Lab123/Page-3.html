@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="files\delivery.png">
+    <title>Оформить заказ</title>
+    <style>
+        table {
+	width: 70%;
+	margin-bottom: 20px; 
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: ivory;
+    }
+        table td {
+	padding: 10px;
+    }
+    </style>
+</head>  
+
+   <body style="background-image: url(files/6305.jpg); background-size: cover;">
+    <h1 style="color: ivory; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Оформить заказ</h1>
+
+    <table>
+        <tbody>
+        <tr>
+            <td>Имя</td>
+            <td><input type="text" placeholder="Введите имя"></td>
+        </tr>
+        <tr>
+            <td>Телефон</td>
+            <td><input type="tel" placeholder="Введите номер телефона"></td>
+        </tr>
+        <tr>
+            <td>Адрес</td>
+            <td><textarea rows="5" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>Метод оплаты</td>
+            <td>
+                <form>
+                <label style="color: cornsilk;">
+                    <input type="radio" name="payment" style="margin-right: 10px;">
+                    Наличные
+                    </label>
+                    <br>
+                    <label style="color: cornsilk;">
+                    <input type="radio" name="payment" style="margin-right: 10px;">
+                    Пластиковая карта
+                    </label>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Желаемый день доставки</td>
+            <td>
+                <select>
+                    <option>понедельник</option>
+                    <option>вторник</option>
+                    <option>среда</option>
+                    <option>четверг</option>
+                    <option>пятница</option>
+                    <option>суббота</option>
+                    <option>воскресенье</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Дополнительное</td>
+            <td>
+                <form>
+                <label style="color: cornsilk">
+                <input type="checkbox" name="delivery" style="margin-right: 10px;">
+                Перед доставкой свяжитесь со мной
+            </label>
+            <br>
+                <label style="color: cornsilk">
+                <input type="checkbox" name="delivery" style="margin-right: 10px;">
+                Курьер должен быть трезвый
+            </label>
+            </form>
+        </td>
+        </tr>
+        </tbody>
+    </table>
+    <form style="margin-left: 350px;">
+        <input type="submit" onclick="Sumbit()" value="Отправить">
+    </form>
+</div>
+<script>
+    function Sumbit() {
+        alert("Упс... Что-то пошло не так!")
+    }
+</script>
+</body>
+
+</html>

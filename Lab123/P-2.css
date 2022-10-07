@@ -1,0 +1,35 @@
+div {
+background-color: whitesmoke;
+position: absolute;
+right: 150px;
+left: 150px;
+} 
+div h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    color: midnightblue;
+}
+div p {
+    color: navy;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+div h3 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: midnightblue;
+}
+div ol {
+    color: rebeccapurple;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 40px;
+    padding-right: 40px;  
+}
+li {
+    margin-bottom: 20px;
+}
