@@ -1,0 +1,50 @@
+img {
+display: inline-block;
+margin: 20px;
+text-align: center;
+}
+h1 {
+    animation: transparency 5s linear infinite;
+}
+.mercury:hover {
+    transform: scale(0.5);
+}
+.neptune:hover {
+    transform: rotate(45deg);
+}
+.mars:hover {
+    transform: translate(50px);
+}
+.jupiter:hover {
+    transform: skew(-20deg);
+}
+#brown, #white {
+    transform: perspective(500px) rotateX(45deg);
+}
+#double {
+    transform: perspective(500px) rotateY(45deg);
+}
+#gigant {
+    transform: perspective(500px) rotateY(-45deg);
+}
+div {
+    height: 300px;
+    width: 300px;
+    background-color: cornsilk;
+    color: blue;
+    transition: color 10s linear;
+}
+div:hover {
+    color: red;
+}
+@keyframes transparency {
+    0% {
+        color: rgb(0, 0, 205, 1);
+    }
+    50% {
+        color: rgb(0, 0, 205, 0.2);
+    }
+    100% {
+        color: rgb(0, 0, 205, 1);
+    }
+}
