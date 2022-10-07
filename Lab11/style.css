@@ -1,0 +1,40 @@
+stars {  
+    display: block; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+} 
+header { 
+    display: block;
+    font-size: xx-large; 
+    font-style: italic; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+} 
+name {  
+    display:block;  
+    font-weight:bold; 
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+description {   
+    display: block; 
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+} 
+planets {  
+    display:block; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+} 
+article {  
+    display:block; 
+    margin-left: 10%;
+    margin-right: 10%;
+    background: url(files/stars1337.jpg);
+} 
+

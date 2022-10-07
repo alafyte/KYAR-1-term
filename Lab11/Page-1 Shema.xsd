@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="article">
+    <xs:complexType>
+        <xs:element type="xs:string" name="header"/>
+
+        <xs:element name="stars">
+          <xs:complexType>
+          <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="description"/>
+         </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="planets">
+          <xs:complexType>
+          <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="description"/>
+         </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
