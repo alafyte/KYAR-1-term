@@ -1,0 +1,43 @@
+h1 {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: indigo;
+}
+.div2 > p {
+    font-size: medium;
+    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0px;
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: indigo;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    margin-left: 0px;
+    letter-spacing: 10px;
+    margin-top: 150px;
+}
+.div11 > p {
+    font-size: large;
+    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.div21 > p {
+    width: 220px;
+    height: 350px;
+    font-size: large;
+    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.div22 > p {
+    font-size: medium;
+    color: indigo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+body {
+    background-color: whitesmoke;
+}

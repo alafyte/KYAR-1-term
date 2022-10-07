@@ -1,0 +1,41 @@
+.navlist {
+    list-style-type: none;
+}
+.navlist a {
+    display: block;
+}
+.navlist a {
+    color: darkblue;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+.navlist li {
+    text-indent: 50px;
+}
+h5 {
+    color: darkblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+figcaption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkslateblue;
+    font-size: larger;
+}
+#row1 {
+    border-bottom: 3px dashed indigo;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#nav {
+    border-left: 3px dashed indigo;
+}
+#nav h5 {
+    text-indent: 30px;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: indigo;
+    font-size: medium;
+}

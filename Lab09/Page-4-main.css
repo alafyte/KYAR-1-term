@@ -1,0 +1,48 @@
+.navlist, .asidelist {
+    list-style-type: none;
+}
+.nav {
+   margin: auto;
+}
+.navlist a, .asidelist a {
+    display: block;
+}
+.navlist a {
+    color: darkblue;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.navlist li, .asidelist li {
+    margin-left: -20px;
+}
+body {
+    background: linear-gradient(to top right, lavender, lightblue, lightskyblue);
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.asidelist a {
+    color: darkblue;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+    text-decoration: none;
+    border: 2px solid indigo;
+    border-radius: 5px;
+}
+h3 {
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 0;
+}
