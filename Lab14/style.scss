@@ -1,0 +1,11 @@
+$font_family: 'Segoe UI', sans-serif;
+$font_color: red;
+$font_size: xx-large;
+$f_style: italic;
+
+text {
+    font-family: $font_family;
+    fill: $font_color;
+    font-size: $font_size;
+    font-style: $f_style;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Задание 2.1/2.2
+ </title>
+</head>
+<body>
+    <svg width="700" height="700" version="1.1" viewBox="0 0 920 1000"  xmlns="//www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="triangle">
+            <stop offset="30%" stop-color="green"/>
+            <stop offset="80%" stop-color="orange"/>
+            </linearGradient>
+
+            <radialGradient id="circle">
+                <stop offset="30%" stop-color="blue"/>
+                <stop offset="80%" stop-color="magenta"/>
+                </radialGradient>
+            </defs>
+        <circle cx="100" cy="100" r="85" fill="url(#circle)"></circle>
+        <rect x="250" y="50" width="150" height="100" fill="red"></rect>
+        <ellipse cx="550" cy="100" rx="100" ry="50" fill="green"></ellipse>
+        <polygon points="720,170 830,50 920,170" fill="url(#triangle)"/>
+        <polyline stroke="blue" stroke-width="3px" fill="none" points=" 10,200 400,200 340,220 840,220"></polyline>
+    </svg>
+</body>
+</html>
