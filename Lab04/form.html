@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Регистрация постоянного клиента</h1>
+    <form>
+        <label for="f">Фамилия</label>
+        <input type="text" name="surname" id="f" class="text">
+    </form>
+    <form>
+    <label for="n">Имя</label>
+        <input type="text" name="username" id="n" class="text">
+    </form>
+    <form>
+    <label for="p">Отчество</label>
+        <input type="text" name="patronymic" id="p" class="text">
+    </form>
+
+    <form>
+    <label for="a">Ваш возраст</label>
+        <input type="text" name="age" id="a" class="text">
+    </form>
+
+    <form>
+    <label for="gen">Пол</label>
+    <input type="radio" name="gender" value="male" id="gen">
+    <label for="gen" class="gen">Мужской</label>    
+    <input type="radio" name="gender" value="female" id="gen">
+    <label for="gen" class="gen">Женский</label>
+    </form>
+
+     <form>
+     <label for="e">Email</label>
+        <input type="email" name="email" id="e" class="text">
+     </form>
+
+    <form>
+    <label for="c">Страна проживания</label>
+        <input type="text" name="country" id="c" class="text">
+    </form>  
+
+    <form>
+    <label for="sel">Откуда вы узнали про нас?</label>
+        <select id="sel">
+            <option disabled>Выберите вариант</option>
+            <option>Реклама в интернете</option>
+            <option>Знакомые</option>
+            <option>Справочник, каталог</option>
+            <option>ТВ</option>
+        </select>
+    </form>
+
+    <form>
+    <label for="date">Дата заполнения</label>
+        <input type="date" id="date">
+    </form>
+    <form>
+        <label for="buttons"></label>
+        <button id="buttonReg">Регистрация</button>
+        <button id="buttonCancel" >Отмена</button>
+    </form>
+    </body>  
+    
+</html>

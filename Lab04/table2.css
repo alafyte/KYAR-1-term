@@ -1,0 +1,37 @@
+table {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px; 
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    empty-cells: hide;
+    border-collapse: separate;
+    border-spacing: 0ch;
+    }
+    th {
+      border-collapse: collapse;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: darkblue;
+    }
+    td {
+      border-collapse: collapse;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+    }
+    td:first-child {
+        color: black;
+    }
+    .secondcol {
+        background-color: #000BFF;
+    }
+    .thirdcol {
+        background-color: purple;
+    }
+    .forthcol {
+        background-color: green;
+    }

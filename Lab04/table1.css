@@ -1,0 +1,25 @@
+body {
+  background: linear-gradient(to top right, red, orange, yellow, #92D748, cyan, fuchsia);
+}
+table {
+    border-collapse: collapse;
+  border: 3px solid blueviolet;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px; 
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: indigo;
+  }
+  th, td {
+    border-collapse: collapse;
+  border: 1px solid blueviolet;
+  padding: 0px;
+  text-align: center;
+  }
+  tr:first-child {
+    background-color: lightcoral;
+  } 
+  td:first-child {
+    background-color: lightcoral;
+  } 
