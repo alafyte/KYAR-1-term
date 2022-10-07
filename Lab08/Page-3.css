@@ -1,0 +1,80 @@
+div {
+    height: 300px;
+}
+img {
+    position: relative;
+    display: inline-block;
+}
+.img1 {
+    animation: direction1 5s linear infinite;
+}
+.img2 {
+    animation: direction2 5s linear infinite;
+}
+.img3 {
+    animation: direction3 5s linear infinite;    
+}
+.img4 {
+    animation: direction4 5s linear infinite;
+}
+
+@keyframes direction1 {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 200px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes direction2 {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 0;
+    }
+}
+@keyframes direction3 {
+    0% {
+        left: 0; top: 0;
+    }
+    20% {
+        left: 200px; top: 120px;
+    }
+    40% {
+        left: 400px; top: 100px;
+    }
+    60% {
+        left: 300px; top: 50px;
+    }
+    80% {
+        left: 200px; top: 120px;
+    }
+    100% {
+        left: 0; top: 0;
+    }
+}
+@keyframes direction4 {
+    0% {
+       left: 0; top: 0;
+    }
+    25% {
+        left: 0; top: 200px;
+    }
+    50% {
+        left: 200px; top: 200px;
+    }
+    75% {
+        left: 200px; top: 0;
+    }
+    100% {
+        left: 0; top: 0;
+    }
+}
+

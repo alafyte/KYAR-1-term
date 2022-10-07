@@ -1,0 +1,36 @@
+img {
+display: inline-block;
+margin: 20px;
+text-align: center;
+}
+.mercury:hover {
+    transform: scale(0.5);
+}
+.neptune:hover {
+    transform: rotate(45deg);
+}
+.mars:hover {
+    transform: translate(50px);
+}
+.jupiter:hover {
+    transform: skew(-20deg);
+}
+#brown, #white {
+    transform: perspective(500px) rotateX(45deg);
+}
+#double {
+    transform: perspective(500px) rotateY(45deg);
+}
+#gigant {
+    transform: perspective(500px) rotateY(-45deg);
+}
+div {
+    height: 300px;
+    width: 300px;
+    background-color: cornsilk;
+    color: blue;
+    transition: color 10s linear;
+}
+div:hover {
+    color: red;
+}

@@ -1,0 +1,73 @@
+/*Первое меню */
+.nav1 ul {
+    margin-bottom: 300px;
+    padding: 0;
+    list-style-type:none;
+}
+.nav1>ul>li {
+    display: inline;
+    position: relative;
+}
+.nav1 li a {
+    display: block;
+    background-color: magenta;
+    color: oldlace;
+    border: 2px dashed navy;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    width: 150px;
+    padding: 10px;
+}
+.nav1 li .second {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+}
+.nav1 li:hover .second{
+    display: block;
+}
+#menu {
+    display: block;
+    margin: 0;
+    padding: 10px;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid black;
+    background-color: navy;
+    color: oldlace;
+    width: 250px;
+}
+
+/*Второе меню */
+.nav2 {
+    list-style-type: none;
+}
+.nav2 li {
+    display: inline;
+    margin-left: -4px;
+}
+.nav2 a {
+    display: inline-block;
+    color: navy;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    width: 200px;
+    border: 1px solid black;
+    padding: 3px;
+    background: url(files/facultet.png) no-repeat 0 0;
+    text-indent: 35px;
+}
+
+.nav2 .it a:hover {
+    background-position: 0 -30px;
+}
+.nav2 .pim a:hover {
+    background-position: 0 -90px;
+}
+.nav2 .htit a:hover {
+    background-position: 0 -60px;
+}
+

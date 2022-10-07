@@ -1,0 +1,25 @@
+.nav {
+    list-style-type: none;
+}
+.nav a {
+    display: block;
+}
+a {
+    color: darkblue;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+}
+.a1:link {
+    color: red;
+    text-decoration: none;
+}
+.a2:visited {
+    color: #8B0000;
+}
+.a3:hover {
+    color: greenyellow;
+}
+.a4:active {
+    color: rgb(184, 134, 11);
+}
