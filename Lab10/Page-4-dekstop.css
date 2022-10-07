@@ -1,0 +1,27 @@
+body {
+    background:url(files/stars2.jpg);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Merriweather;
+}
+figcaption {
+    color: white;
+    font-size: x-large;
+    font-family: Merriweather;
+    font-weight: bold;
+    font-style: italic;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    align-items: stretch;
+    justify-content: space-around;
+}
+figure {
+    border: 1px solid white;
+    background-color: black
+}

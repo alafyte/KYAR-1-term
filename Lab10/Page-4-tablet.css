@@ -1,0 +1,20 @@
+body {
+    background: url(files/stars1337.jpg);
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Merriweather;
+}
+figcaption {
+    color: white;
+    font-weight: bold;
+    font-family: Merriweather;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    align-items: stretch;
+    justify-content: space-around;
+}
