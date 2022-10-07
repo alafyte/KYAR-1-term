@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+<body style="font-size: large; font-family: 'Franklin Gothic Medium', sans-serif; color: blueviolet; background-color:floralwhite;">   
+<div>
+<p><span id="name1"></span></p>
+<p><span id="description1"></span></p>
+<p><span id="name2"></span></p>
+<p><span id="description2"></span></p>
+</div>
+
+<script>
+txt = "<galaxy>";
+txt += "<name1>Млечный путь</name1>";
+txt += "<description1>Млечный Путь — галактика, в которой находятся Земля, Солнечная система и все отдельные звёзды, видимые невооружённым глазом. Относится к спиральным галактикам с перемычкой. Млечный Путь вместе с галактикой Андромеды (М31), галактикой Треугольника (М33) и более чем 40 карликовыми галактиками-спутниками — своими и Андромеды — образуют Местную группу галактик, которая входит в Местное сверхскопление (Сверхскопление Девы).</description1>";
+txt += "<name2>Андромеда</name2>";
+txt += "<description2>Галактика Андромеды (Туманность Андромеды, M 31, NGC 224, PGC 2557) — спиральная галактика, наблюдаемая в созвездии Андромеды. Её радиус составляет около 31 килопарсека, что вдвое больше, чем у нашей Галактики, и она содержит в несколько раз больше звёзд, чем Млечный Путь. Расстояние до неё составляет около 800 килопарсек, что делает её ближайшей из крупных галактик, а также крупнейшей галактикой Местной группы. При этом её масса приблизительно равна массе Млечного Пути или даже меньше.</description2>";
+txt += "</galaxy>";
+if (window. DOMParser)
+{
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(txt, "text/xml");
+}
+else // Internet Explorer
+{
+xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+xmlDoc.async = false;
+xmlDoc.loadXML(txt);
+}
+
+document.getElementById("name1").innerHTML = xmlDoc.getElementsByTagName("name1")
+[0].childNodes[0].nodeValue;
+document.getElementById("description1").innerHTML = xmlDoc.getElementsByTagName("description1")
+[0].childNodes[0].nodeValue;
+document.getElementById("name2").innerHTML = xmlDoc.getElementsByTagName("name2")
+[0].childNodes[0].nodeValue;
+document.getElementById("description2").innerHTML = xmlDoc.getElementsByTagName("description2")
+[0].childNodes[0].nodeValue;
+</script>
+</body>
+</html>

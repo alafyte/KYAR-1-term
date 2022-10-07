@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 2</title>
+</head>
+<body style="color: white; background-color: black; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: larger;">
+    <div>
+        <p><span id="name"></span></p>
+        <p><span id="description"></span></p>
+        </div>
+        <script>
+        txt = "<galaxy>";
+        txt += "<name>Войд Волопаса</name>";
+        txt += "<description>Войд Волопаса — крупная, почти сферически-симметричная область пространства, содержащая малое количество галактик (войд). Расположен в созвездии Волопаса. Центр его имеет координаты α=14ч 50м и δ =46°. Диаметр войда оценивается в 330 млн световых лет (примерно 0,27 % диаметра наблюдаемой Вселенной), объём составляет 236000 Мпк3, при этом войд Волопаса является одним из крупнейших войдов и иногда называется супервойдом. Об открытии войда сообщили Роберт Киршнер и коллеги (1981) в рамках обзора красных смещений. Центр войда Волопаса расположен на расстоянии около 700 млн св. лет от Солнца. Другие астрономы вскоре обнаружили, что войд содержит несколько галактик. В 1987 году Р. Киршнер и коллеги опубликовали результаты исследования восьми галактик в войде. M. Strauss и J. Huchra анонсировали открытие ещё нескольких галактик в 1988 году, а Г. Алдеринг, Г. Ботун, Р. Киршнер и Р. Марцке в 1989 году заявили об открытии 15 галактик. К 1997 году стало известно о 60 галактиках в войде.</description>";
+        txt += "</galaxy>";
+        if (window. DOMParser)
+        {
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(txt, "text/xml");
+        }
+        else // Internet Explorer
+        {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = false;
+        xmlDoc.loadXML(txt);
+        }
+        document.getElementById("name").innerHTML = xmlDoc.getElementsByTagName("name")
+        [0].childNodes[0].nodeValue;
+        document.getElementById("description").innerHTML = xmlDoc.getElementsByTagName("description")
+        [0].childNodes[0].nodeValue;
+        </script>   
+</body>
+</html>
