@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Page-2.xsl"?>
+<attestation>
+
+<student>
+<name>Аксенов Дмитрий</name>
+<OPI>6</OPI>
+<OAP>8</OAP>
+<ALOVS>3</ALOVS>
+<English>5</English>
+<KYAR>7</KYAR>
+<MATH>3</MATH>
+</student>
+
+<student>
+<name>Дроздов Андрей</name>
+<OPI>9</OPI>
+<OAP>9</OAP>
+<ALOVS>5</ALOVS>
+<English>8</English>
+<KYAR>8</KYAR>
+<MATH>6</MATH>
+</student>
+
+<student>
+<name>Иванов Захар</name>
+<OPI>3</OPI>
+<OAP>5</OAP>
+<ALOVS>2</ALOVS>
+<English>5</English>
+<KYAR>6</KYAR>
+<MATH>2</MATH>
+</student>
+
+<student>
+<name>Максимова Полина</name>
+<OPI>8</OPI>
+<OAP>8</OAP>
+<ALOVS>5</ALOVS>
+<English>9</English>
+<KYAR>9</KYAR>
+<MATH>6</MATH>
+</student>
+
+<student>
+<name>Петрова Сабина</name>
+<OPI>10</OPI>
+<OAP>9</OAP>
+<ALOVS>6</ALOVS>
+<English>8</English>
+<KYAR>8</KYAR>
+<MATH>7</MATH>
+</student>
+
+<student>
+<name>Симонов Роман</name>
+<OPI>3</OPI>
+<OAP>4</OAP>
+<ALOVS>4</ALOVS>
+<English>5</English>
+<KYAR>7</KYAR>
+<MATH>4</MATH>
+</student>
+
+<student>
+<name>Соколова Виктория</name>
+<OPI>10</OPI>
+<OAP>9</OAP>
+<ALOVS>7</ALOVS>
+<English>9</English>
+<KYAR>9</KYAR>
+<MATH>9</MATH>
+</student>
+
+<student>
+<name>Соколова Яна</name>
+<OPI>8</OPI>
+<OAP>9</OAP>
+<ALOVS>6</ALOVS>
+<English>9</English>
+<KYAR>8</KYAR>
+<MATH>8</MATH>
+</student>
+
+<student>
+<name>Токарев Михаил</name>
+<OPI>8</OPI>
+<OAP>8</OAP>
+<ALOVS>8</ALOVS>
+<English>9</English>
+<KYAR>9</KYAR>
+<MATH>8</MATH>
+</student>
+
+<student>
+<name>Фадеев Георгий</name>
+<OPI>4</OPI>
+<OAP>3</OAP>
+<ALOVS>1</ALOVS>
+<English>5</English>
+<KYAR>6</KYAR>
+<MATH>3</MATH>
+</student>
+
+</attestation>
