@@ -1,0 +1,22 @@
+body {
+    background-image: url(files/YmXB.gif);
+}
+figure {
+    display: inline-block;
+}
+figcaption {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: indigo;
+}
+div {
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px 150px 10px 150px;
+
+}
+h1 {
+   color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
